@@ -2,10 +2,37 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <title>小橙子</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+	overflow:hidden;
+}
+#page{
+	display:flex;
+	height:100%;
+	background:url(images/bg.jpg) center no-repeat;
+	background-size:cover;
+	justify-content: center;
+	align-items: center;
+}
+.hello{
+	background:rgba(0,0,0,.5);
+	color:#fff;
+	padding:5px 20px;
+	border-radius: 8px;
+}
+</style>
 </head>
 <body>
-<p style="text-align:center;padding:100px">Hi：小橙子</p>
+<div id="page">
+ <p class="hello">Hi：小橙子</p>
+</div>
 </body>
 </html>
 
